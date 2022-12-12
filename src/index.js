@@ -77,7 +77,7 @@ SceneLoader.ImportMesh("", "public/", "ufo.glb", scene, function (newMeshes) {
   newMeshes[0].rotate(new Vector3(0, 1, 0), Math.PI / 2);
   newMeshes[0].position.z = 0;
   newMeshes[0].position.x = 0;
-  newMeshes[0].position.y = 50;
+  newMeshes[0].position.y = 0;
   ufo = newMeshes[0];
   //var i = 0;
   for (i = 0; i < 0; i++) {
@@ -87,12 +87,12 @@ SceneLoader.ImportMesh("", "public/", "ufo.glb", scene, function (newMeshes) {
 });
 //barvy
 var planeta = Mesh.CreateSphere("sphere1", 20, 20, scene);
-planeta.position.y = 60;
+planeta.position.y = 10;
 var planeta1 = Mesh.CreateSphere("sphere2", 20, 20, scene);
-planeta1.position.y = 60;
+planeta1.position.y = 10;
 planeta1.position.x = 150;
 var planeta2 = Mesh.CreateSphere("sphere3", 20, 20, scene);
-planeta2.position.y = 60;
+planeta2.position.y = 10;
 planeta2.position.x = -150;
 //var ground = Mesh.CreateGround("ground1", 400, 400, 400, scene);
 
