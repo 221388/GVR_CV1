@@ -85,7 +85,7 @@ SceneLoader.ImportMesh("", "public/", "ufo.glb", scene, function (newMeshes) {
     ufo.position.x = 1 - i;
   }
 });
-//ground
+//barvy
 var planeta = Mesh.CreateSphere("sphere1", 20, 20, scene);
 planeta.position.y = 60;
 var planeta1 = Mesh.CreateSphere("sphere2", 20, 20, scene);
